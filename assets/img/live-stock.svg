@@ -1,0 +1,46 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#FF5252" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Monitor/Screen -->
+  <rect x="25" y="30" width="50" height="35" fill="#ffffff" stroke="#FF5252" stroke-width="2" rx="3"/>
+  <rect x="28" y="33" width="44" height="26" fill="#FF5252"/>
+  
+  <!-- Monitor stand -->
+  <rect x="47" y="65" width="6" height="8" fill="#ffffff"/>
+  <rect x="40" y="73" width="20" height="3" fill="#ffffff"/>
+  
+  <!-- Chart/Graph on screen -->
+  <polyline points="32,55 38,50 44,52 50,45 56,48 62,42 68,44" fill="none" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Data points -->
+  <circle cx="32" cy="55" r="1.5" fill="#ffffff"/>
+  <circle cx="38" cy="50" r="1.5" fill="#ffffff"/>
+  <circle cx="44" cy="52" r="1.5" fill="#ffffff"/>
+  <circle cx="50" cy="45" r="1.5" fill="#ffffff"/>
+  <circle cx="56" cy="48" r="1.5" fill="#ffffff"/>
+  <circle cx="62" cy="42" r="1.5" fill="#ffffff"/>
+  <circle cx="68" cy="44" r="1.5" fill="#ffffff"/>
+  
+  <!-- Grid lines on screen -->
+  <line x1="30" y1="40" x2="70" y2="40" stroke="#ffffff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="30" y1="47" x2="70" y2="47" stroke="#ffffff" stroke-width="0.5" opacity="0.5"/>
+  <line x1="30" y1="54" x2="70" y2="54" stroke="#ffffff" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Real-time indicator -->
+  <circle cx="15" cy="20" r="6" fill="#ffffff"/>
+  <circle cx="15" cy="20" r="3" fill="#FF5252"/>
+  <text x="23" y="24" fill="#ffffff" font-size="8" font-family="Arial">LIVE</text>
+  
+  <!-- Stock boxes -->
+  <rect x="78" y="25" width="8" height="8" fill="#ffffff"/>
+  <rect x="78" y="35" width="8" height="8" fill="#ffffff"/>
+  <rect x="78" y="45" width="8" height="8" fill="#ffffff"/>
+  <rect x="78" y="55" width="8" height="8" fill="#ffffff"/>
+  
+  <!-- Numbers on boxes -->
+  <text x="82" y="31" fill="#FF5252" font-size="6" font-family="Arial" text-anchor="middle">25</text>
+  <text x="82" y="41" fill="#FF5252" font-size="6" font-family="Arial" text-anchor="middle">18</text>
+  <text x="82" y="51" fill="#FF5252" font-size="6" font-family="Arial" text-anchor="middle">32</text>
+  <text x="82" y="61" fill="#FF5252" font-size="6" font-family="Arial" text-anchor="middle">07</text>
+</svg>

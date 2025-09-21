@@ -1,0 +1,175 @@
+const translations = {
+    en: {
+        title: "LogisPe",
+        "nav.home": "Home",
+        "nav.about": "About Us",
+        "nav.learn": "Learn More",
+        "nav.subscribe": "Subscribe",
+        "nav.login": "Login",
+        "nav.register": "Register",
+        "nav.menu": "Menu",
+        "home.title": "Welcome to LogisPe!",
+        "home.register": "Register",
+        "home.learnMore": "Learn More",
+        "about.title": "About Us",
+        "about.whatIs": "What is LogisPe?",
+        "about.description": "It is a platform that allows you to have complete management of your business inventory.",
+        "about.mission": "Mission",
+        "about.missionText": "Provide small and medium-sized businesses with an efficient, accessible, and secure inventory management system that optimizes control of products, supplies, and suppliers, facilitating real-time decision-making.",
+        "about.vision": "Vision",
+        "about.visionText": "Become the benchmark application for inventory management in the food service and hospitality industry, recognized for its reliability, usability, and ability to adapt to customer needs.",
+        "learn.title": "Learn More About LogisPe",
+        "learn.subtitle1": "Inventory Management",
+        "learn.subtitle2": "Supplier Manager",
+        "learn.subtitle3": "Custom alarms",
+        "learn.subtitle4": "Live Input Stock",
+        "learn.text1": "You can record all income and expenses related to your business inventory.",
+        "learn.text2": "You can organize and store your suppliers, as well as place your orders quickly.",
+        "learn.text3": "You can create alerts for specific events such as: expiration dates, merchandise deliveries, and more.",
+        "learn.text4": "You can check your stock of supplies and products in real time.",
+
+        "subscribe.title": "Subscription Plans",
+        "subscribe.trial": "Trial Plan",
+        "subscribe.free": "Free",
+        "subscribe.free1": "1 user • 1 location • up to 150 SKUs • 300 movements/month.",
+        "subscribe.free2": "Real-time stock control (incoming/outgoing/adjustments).",
+        "subscribe.free3": "Email alerts for minimum stock levels.",
+        "subscribe.free4": "Basic recipes (up to 30) with unit cost (simple yield).",
+        "subscribe.free5": "CSV/Excel import of products and suppliers.",
+        "subscribe.lite": "Lite Consulting",
+        "subscribe.price1": "$5.00",
+        "subscribe.lite1": "3 users, 1 location, up to 1,000 SKUs, 3,000 movements/month.",
+        "subscribe.lite2": "Recipes and sub-recipes with yields and shrinkage; margin-based pricing.",
+        "subscribe.lite3": "Purchase orders and receipts; price comparison by supplier.",
+        "subscribe.lite4": "Reports: consumption per recipe, shrinkage, days' coverage, ABC rotation.",
+        "subscribe.lite5": "Simple forecast (4-week moving average) + replenishment suggestions.",
+        "subscribe.lite6": "Role management by area (purchasing, warehouse, checkout).",
+        "subscribe.premium": "Premium Consulting",
+        "subscribe.price2": "S/ 50.00",
+        "subscribe.premium1": "Unlimited users, up to 5 locations (multi-warehouse) and 10,000 SKUs.",
+        "subscribe.premium2": "Unlimited movements (fair use) and transfers between warehouses.",
+        "subscribe.premium3": "Menu engineering (popularity vs. margin), cost breakdowns, and price simulator.",
+        "subscribe.premium4": "Batches + expiry dates with suggested FEFO and quarantines.",
+        "subscribe.premium5": "Personalized support",
+        "subscribe.premium6": "Full access to metrics and reports",
+        "subscribe.premium7": "Cyclical inventories with barcode/QR reader (mobile camera).",
+        "subscribe.premium8": "Integrations: POS/accounting/delivery (via API & webhooks).",
+        "subscribe.suscribe": "Subscribe",
+
+        "footer.register": "Register Now",
+        "footer.contact": "Contact Us",
+        "footer.phone": "Phone",
+        "footer.email": "Email",
+        "footer.legal": "Legal",
+        "footer.terms": "Terms of Service",
+        "footer.privacy": "Privacy Policy",
+        "videos.title": "Our Videos",
+        "videos.aboutProduct": "About the Product",
+        "videos.aboutTeam": "About the Team",
+        "videos.productDescription": "Learn more about LogisPe's features and how our platform can transform your playing experience.",
+        "videos.teamDescription": "Meet the team behind LogisPe and discover our mission to revolutionize professional players.",
+        "team.position": "Software Engineering student",
+        "team.mathias": "Mathias Javier Murillo",
+        "video.productTitle": "About the Product",
+        "video.teamTitle": "About the Team"
+    },
+    es: {
+        title: "LogisPe",
+        "nav.home": "Inicio",
+        "nav.about": "Nosotros",
+        "nav.learn": "Aprende Más",
+        "nav.subscribe": "Suscríbete",
+        "nav.login": "Iniciar Sesión",
+        "nav.register": "Registrarse",
+        "nav.menu": "Menú",
+        "home.title": "¡Bienvenido a LogisPe!",
+        "home.register": "Registrarse",
+        "home.learnMore": "Saber Más",
+        "about.title": "Acerca de Nosotros",
+        "about.whatIs": "¿Qué es LogisPe?",
+        "about.description": "Es una plataforma que te permite tener una gestión completa del inventario de tu negocio.",
+        "about.mission": "Misión",
+        "about.missionText": "Proporcionar a las pequeñas y medianas empresas un sistema de gestión de inventarios eficiente, accesible y seguro que optimice el control de productos, suministros y proveedores, facilitando la toma de decisiones en tiempo real.",
+        "about.vision": "Visión",
+        "about.visionText": "Convertirnos en la aplicación de referencia para la gestión de inventarios en la industria de servicios de alimentación y hospitalidad, reconocida por su confiabilidad, usabilidad y capacidad de adaptarse a las necesidades del cliente.",
+        "learn.title": "Aprende Más Sobre LogisPe",
+        "learn.subtitle1": "Gestión de Inventarios",
+        "learn.subtitle2": "Gestor de Proveedores",
+        "learn.subtitle3": "Alarmas Personalizadas",
+        "learn.subtitle4": "Stock en Tiempo Real",
+        "learn.text1": "Puedes registrar todos los ingresos y gastos relacionados con el inventario de tu negocio.",
+        "learn.text2": "Puedes organizar y almacenar tus proveedores, así como realizar tus pedidos rápidamente.",
+        "learn.text3": "Puedes crear alertas para eventos específicos como: fechas de vencimiento, entregas de mercancía y más.",
+        "learn.text4": "Puedes verificar tu stock de suministros y productos en tiempo real.",
+
+        "subscribe.title": "Planes de Suscripción",
+        "subscribe.trial": "Plan de Prueba",
+        "subscribe.free": "Gratis",
+        "subscribe.free1": "1 usuario • 1 ubicación • hasta 150 SKUs • 300 movimientos/mes.",
+        "subscribe.free2": "Control de stock en tiempo real (entradas/salidas/ajustes).",
+        "subscribe.free3": "Alertas por email para niveles mínimos de stock.",
+        "subscribe.free4": "Recetas básicas (hasta 30) con costo unitario (rendimiento simple).",
+        "subscribe.free5": "Importación CSV/Excel de productos y proveedores.",
+        "subscribe.lite": "Consultoría Lite",
+        "subscribe.price1": "S/18.00",
+        "subscribe.lite1": "3 usuarios, 1 ubicación, hasta 1,000 SKUs, 3,000 movimientos/mes.",
+        "subscribe.lite2": "Recetas y sub-recetas con rendimientos y mermas; precios basados en margen.",
+        "subscribe.lite3": "Órdenes de compra y recepciones; comparación de precios por proveedor.",
+        "subscribe.lite4": "Reportes: consumo por receta, mermas, días de cobertura, rotación ABC.",
+        "subscribe.lite5": "Pronóstico simple (promedio móvil 4 semanas) + sugerencias de reposición.",
+        "subscribe.lite6": "Gestión de roles por área (compras, almacén, caja).",
+        "subscribe.premium": "Consultoría Premium",
+        "subscribe.price2": "S/ 50.00",
+        "subscribe.premium1": "Usuarios ilimitados, hasta 5 ubicaciones (multi-almacén) y 10,000 SKUs.",
+        "subscribe.premium2": "Movimientos ilimitados (uso justo) y transferencias entre almacenes.",
+        "subscribe.premium3": "Ingeniería de menús (popularidad vs. margen), desglose de costos y simulador de precios.",
+        "subscribe.premium4": "Lotes + fechas de vencimiento con FEFO sugerido y cuarentenas.",
+        "subscribe.premium5": "Soporte personalizado",
+        "subscribe.premium6": "Acceso total a métricas e informes",
+        "subscribe.premium7": "Inventarios cíclicos con lector de códigos de barras/QR (cámara móvil).",
+        "subscribe.premium8": "Integraciones: POS/contabilidad/delivery (vía API y webhooks).",
+        "subscribe.suscribe": "Suscribirme",
+
+        "footer.register": "Regístrate Ahora",
+        "footer.contact": "Contáctanos",
+        "footer.phone": "Teléfono",
+        "footer.email": "Correo",
+        "footer.legal": "Legal",
+        "footer.terms": "Términos de Servicio",
+        "footer.privacy": "Política de Privacidad",
+        "videos.title": "Nuestros Videos",
+        "videos.aboutProduct": "Sobre el Producto",
+        "videos.aboutTeam": "Sobre el Equipo",
+        "videos.comingSoon": "Video próximamente",
+        "videos.productDescription": "Aprende más sobre las características de LogisPe y cómo nuestra plataforma puede transformar tu experiencia de juego.",
+        "videos.teamDescription": "Conoce al equipo detrás de LogisPe y descubre nuestra misión de revolucionar a los jugadores profesionales.",
+        "team.position": "Estudiante de Ingeniería de Software",
+        "team.mathias": "Mathias Javier Murillo",
+        "team.name": "Miembro del Equipo",
+        "video.productTitle": "Sobre el Producto",
+        "video.teamTitle": "Sobre el Equipo"
+    }
+};
+
+function applyTranslations(lang = 'en') {
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+            el.textContent = translations[lang][key];
+        }
+    });
+    document.documentElement.lang = lang;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const userLang = navigator.language.startsWith('es') ? 'es' : 'en';
+    applyTranslations(userLang);
+    const select = document.getElementById('language-select');
+    if (select) {
+        select.value = userLang;
+        select.addEventListener('change', (e) => {
+            const selectedLang = e.target.value;
+            applyTranslations(selectedLang);
+        });
+    }
+});

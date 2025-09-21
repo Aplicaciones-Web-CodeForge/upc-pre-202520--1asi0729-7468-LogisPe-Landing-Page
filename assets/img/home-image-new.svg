@@ -1,0 +1,50 @@
+<svg width="500" height="350" viewBox="0 0 500 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="350" fill="#F7FAFC"/>
+  
+  <!-- Office setting -->
+  <rect x="0" y="250" width="500" height="100" fill="#EDF2F7"/>
+  
+  <!-- Desk -->
+  <rect x="100" y="200" width="300" height="80" rx="8" fill="#4A5568"/>
+  <rect x="105" y="205" width="290" height="70" rx="4" fill="#718096"/>
+  
+  <!-- Laptop -->
+  <rect x="180" y="180" width="80" height="50" rx="4" fill="#2D3748"/>
+  <rect x="185" y="185" width="70" height="40" rx="2" fill="#1A202C"/>
+  <rect x="190" y="190" width="60" height="30" fill="#4A5568"/>
+  
+  <!-- Documents -->
+  <rect x="280" y="190" width="60" height="40" rx="2" fill="white"/>
+  <rect x="285" y="195" width="50" height="2" fill="#718096"/>
+  <rect x="285" y="200" width="40" height="2" fill="#718096"/>
+  <rect x="285" y="205" width="45" height="2" fill="#718096"/>
+  
+  <!-- Person 1 (sitting) -->
+  <circle cx="150" cy="120" r="25" fill="#E2E8F0"/>
+  <rect x="125" y="145" width="50" height="60" rx="25" fill="#C53030"/>
+  <rect x="130" y="150" width="40" height="50" rx="20" fill="#E53E3E"/>
+  
+  <!-- Person 2 (standing) -->
+  <circle cx="350" cy="100" r="25" fill="#E2E8F0"/>
+  <rect x="325" y="125" width="50" height="80" rx="25" fill="#2D3748"/>
+  <rect x="330" y="130" width="40" height="70" rx="20" fill="#4A5568"/>
+  
+  <!-- Arms for person 2 (pointing gesture) -->
+  <rect x="310" y="140" width="30" height="8" rx="4" fill="#E2E8F0" transform="rotate(-20 325 144)"/>
+  
+  <!-- Coffee cups -->
+  <rect x="120" y="190" width="15" height="20" rx="2" fill="white"/>
+  <rect x="122" y="192" width="11" height="16" rx="1" fill="#C53030"/>
+  
+  <!-- Window -->
+  <rect x="50" y="50" width="80" height="100" rx="4" fill="#E2E8F0" stroke="#718096" stroke-width="2"/>
+  <line x1="90" y1="50" x2="90" y2="150" stroke="#718096" stroke-width="1"/>
+  <line x1="50" y1="100" x2="130" y2="100" stroke="#718096" stroke-width="1"/>
+  
+  <!-- Plant -->
+  <rect x="420" y="180" width="20" height="40" rx="2" fill="#68D391"/>
+  <circle cx="430" cy="170" r="15" fill="#48BB78"/>
+  <circle cx="425" cy="165" r="8" fill="#38A169"/>
+  <circle cx="435" cy="165" r="8" fill="#38A169"/>
+</svg>

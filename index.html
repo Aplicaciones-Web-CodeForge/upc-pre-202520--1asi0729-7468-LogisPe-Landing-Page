@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="LogisPe - Connecting Businesses, Streamlining Operations">
+    <meta name="theme-color" content="#003844">
+    <title data-i18n="title">LogisPe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="menu-overlay" id="menu-overlay"></div>
+<nav>
+    <div class="logo">
+        <img src="assets/img/Logo.png" alt="Logo">
+    </div>
+    <div class="hamburger" id="hamburger-menu" aria-label="Menú" data-i18n="nav.menu" role="button" tabindex="0" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="nav-links" id="nav-links">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About Us</a>
+        <a href="#learn" data-i18n="nav.learn">Learn More</a>
+        <a href="#subscribe" data-i18n="nav.subscribe">Subscribe</a>
+    </div>
+    <div class="nav-buttons" id="nav-buttons">
+        <a href="" class="btn-login" data-i18n="nav.login">Login</a>
+        <a href="" class="btn-register" data-i18n="nav.register">Register</a>
+        <div class="lang-switcher">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
+    </div>
+</nav>
+<!-- Sección Home -->
+<section id="home">
+    <div class="home-left">
+        <h1 data-i18n="home.title">Welcome to LogisPe!</h1>
+        <div class="home-description">
+            <h3 data-i18n="about.whatIs">What is LogisPe?</h3>
+            <p data-i18n="about.description">It is a platform that allows you to have complete management of your business inventory.</p>
+        </div>
+        <div>
+            <a href="#" class="btn" data-i18n="home.register">Register</a>
+            <a href="#learn" class="btn btn-secondary" data-i18n="home.learnMore">Learn More</a>
+        </div>
+    </div>
+    <div class="home-right">
+        <img src="assets/img/home-image-new.svg" alt="People in meeting" class="home-image">
+    </div>
+</section>
+<!-- Sección About Us -->
+<section id="about">
+    <h2 class="about-title" data-i18n="about.title">About Us</h2>
+    
+    <div class="vision-mission-grid">
+        <div class="vision-mission-card">
+            <h3 data-i18n="about.mission">Mission</h3>
+            <p data-i18n="about.missionText">Provide small and medium-sized businesses with an efficient, accessible, and secure inventory management system that optimizes control of products, supplies, and suppliers, facilitating real-time decision-making.</p>
+        </div>
+        <div class="vision-mission-card">
+            <h3 data-i18n="about.vision">Vision</h3>
+            <p data-i18n="about.visionText">Become the benchmark application for inventory management in the food service and hospitality industry, recognized for its reliability, usability, and ability to adapt to customer needs.</p>
+        </div>
+    </div>
+    
+    <div class="team-grid">
+        <div class="team-member">
+            <div class="team-image">
+                <img src="assets/img/MathiasJM.jpg" alt="Mathias-Javier" class="team-image">
+            </div>
+            <h3 class="team-name">Mathias Javier Murillo</h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="" alt="" class="team-image">
+            </div>
+            <h3 class="team-name"></h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="" alt="Oliver Jonseck Choque" class="team-image">
+            </div>
+            <h3 class="team-name"></h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="" alt="" class="team-image">
+            </div>
+            <h3 class="team-name"></h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
+        </div>
+        <div class="team-member">
+            <div class="team-image">
+                <img src="" alt="" class="team-image">
+            </div>
+            <h3 class="team-name"></h3>
+            <p class="team-position" data-i18n="team.position">Software Engineering student</p>
+        </div>
+    </div>
+</section>
+<!-- Sección Learn More -->
+<section id="learn">
+    <h2 class="section-title" data-i18n="learn.title">Learn More About LogisPe</h2>
+    <div class="info-grid">
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/inventory-management.svg" alt="Inventory Management" class="info-icon">
+            </div>
+            <div class="info-content">
+                <h3 data-i18n="learn.subtitle1">Inventory Management</h3>
+                <p data-i18n="learn.text1">You can record all income and expenses related to your business inventory.</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/supplier-manager.svg" alt="Supplier Manager" class="info-icon">
+            </div>
+            <div class="info-content" >
+                <h3 data-i18n="learn.subtitle2">Supplier Manager</h3>
+                <p data-i18n="learn.text2">You can organize and store your suppliers, as well as place your orders quickly. </p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/custom-alarms.svg" alt="Custom Alarms" class="info-icon">
+            </div>
+            <div class="info-content">
+                <h3 data-i18n="learn.subtitle3">Custom alarms</h3>
+                <p data-i18n="learn.text3">You can create alerts for specific events such as: expiration dates, merchandise deliveries, and more.</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">
+                <img src="assets/img/live-stock.svg" alt="Live Stock" class="info-icon">
+            </div>
+            <div class="info-content">
+                <h3 data-i18n="learn.subtitle4">Live Input Stock</h3>
+                <p data-i18n="learn.text4">You can check your stock of supplies and products in real time.</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Sección Subscribe -->
+<section id="subscribe">
+    <h2 class="pricing-title" data-i18n="subscribe.title">Subscription Plans</h2>
+    <div class="pricing-grid">
+        <div class="pricing-card">
+            <h3 data-i18n="subscribe.trial">Trial Plan</h3>
+            <div class="price" data-i18n="subscribe.free">Free</div>
+            <ul>
+                <li data-i18n="subscribe.free1">1 user • 1 location • up to 150 SKUs • 300 movements/month.</li>
+                <li data-i18n="subscribe.free2">Real-time stock control (incoming/outgoing/adjustments).</li>
+                <li data-i18n="subscribe.free3">Email alerts for minimum stock levels.</li>
+                <li data-i18n="subscribe.free4">Basic recipes (up to 30) with unit cost (simple yield).</li>
+                <li data-i18n="subscribe.free5">CSV/Excel import of products and suppliers.</li>
+            </ul>
+            <a href="#" class="btn" data-i18n="subscribe.suscribe">Subscribe</a>
+        </div>
+
+        <div class="pricing-card">
+            <h3 data-i18n="subscribe.lite">Lite Consulting</h3>
+            <div class="price" data-i18n="subscribe.price1">$5.00</div>
+            <ul>
+                <li data-i18n="subscribe.lite1">3 users, 1 location, up to 1,000 SKUs, 3,000 movements/month.</li>
+                <li data-i18n="subscribe.lite2">Recipes and sub-recipes with yields and shrinkage; margin-based pricing.</li>
+                <li data-i18n="subscribe.lite3">Purchase orders and receipts; price comparison by supplier.</li>
+                <li data-i18n="subscribe.lite4">Reports: consumption per recipe, shrinkage, days' coverage, ABC rotation.</li>
+                <li data-i18n="subscribe.lite5">Simple forecast (4-week moving average) + replenishment suggestions.</li>
+                <li data-i18n="subscribe.lite6">Role management by area (purchasing, warehouse, checkout).</li>
+            </ul>
+            <a href="#" class="btn" data-i18n="subscribe.suscribe">Subscribe</a>
+        </div>
+
+        <div class="pricing-card">
+            <h3 data-i18n="subscribe.premium">Premium Consulting</h3>
+            <div class="price" data-i18n="subscribe.price2">S/ 50.00</div>
+            <ul>
+                <li data-i18n="subscribe.premium1">Unlimited users, up to 5 locations (multi-warehouse) and 10,000 SKUs.</li>
+                <li data-i18n="subscribe.premium2">Unlimited movements (fair use) and transfers between warehouses.</li>
+                <li data-i18n="subscribe.premium3">Menu engineering (popularity vs. margin), cost breakdowns, and price simulator.</li>
+                <li data-i18n="subscribe.premium4">Batches + expiry dates with suggested FEFO and quarantines.</li>
+                <li data-i18n="subscribe.premium5">Personalized support</li>
+                <li data-i18n="subscribe.premium6">Full access to metrics and reports</li>
+                <li data-i18n="subscribe.premium7">Cyclical inventories with barcode/QR reader (mobile camera).</li>
+                <li data-i18n="subscribe.premium8">Integrations: POS/accounting/delivery (via API & webhooks).</li>
+            </ul>
+            <a href="#" class="btn" data-i18n="subscribe.suscribe">Subscribe</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- Sección Videos -->
+<section id="videos">
+    <h2 class="videos-title" data-i18n="videos.title">Our Videos</h2>
+    <div class="videos-grid">
+
+        <!-- Video About the Product -->
+        <div class="video-card">
+            <h3 data-i18n="videos.aboutProduct">About the Product</h3>
+            <div class="video-placeholder">
+                <iframe width="100%" height="315" src="" 
+                    title="About the Product" data-i18n="video.productTitle" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p data-i18n="videos.productDescription">
+                Learn more about LogisPe's features and how our platform can transform your gestor experience.
+            </p>
+        </div>
+        
+<!-- Video About the Team -->
+<div class="video-card">
+    <h3 data-i18n="videos.aboutTeam">About the Team</h3>
+    <div class="video-placeholder">
+        <iframe width="100%" height="315" src="" 
+            title="About the Team" data-i18n="video.teamTitle" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <p data-i18n="videos.teamDescription">
+        Meet the team behind LogisPe and discover our mission to revolutionize inventory management.
+    </p>
+</div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div>
+        <div>
+            <button data-i18n="footer.register">Register Now</button>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" class="social-icon instagram" aria-label="Instagram"></a>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon facebook" aria-label="Facebook"></a>
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin" aria-label="LinkedIn"></a>
+            </div>
+        </div>
+        <div>
+            <strong data-i18n="footer.contact">Contact Us</strong><br>
+            <span data-i18n="footer.phone">Phone</span>: ‪+51 999 999 999‬<br>
+            <span data-i18n="footer.email">Email</span>: serviciocliente@logispe.com
+        </div>
+        <div>
+            <strong data-i18n="footer.legal">Legal</strong><br>
+            <a href="#" data-i18n="footer.terms">Terms & Conditions</a><br>
+            <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+
+<script src="javascript/i18n.js"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
