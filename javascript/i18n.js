@@ -45,7 +45,7 @@ const translations = {
         "subscribe.lite5": "Simple forecast (4-week moving average) + replenishment suggestions.",
         "subscribe.lite6": "Role management by area (purchasing, warehouse, checkout).",
         "subscribe.premium": "Premium Consulting",
-        "subscribe.price2": "S/ 50.00",
+        "subscribe.price2": "$10.00",
         "subscribe.premium1": "Unlimited users, up to 5 locations (multi-warehouse) and 10,000 SKUs.",
         "subscribe.premium2": "Unlimited movements (fair use) and transfers between warehouses.",
         "subscribe.premium3": "Menu engineering (popularity vs. margin), cost breakdowns, and price simulator.",
